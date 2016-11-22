@@ -1,0 +1,29 @@
+Run :
+====
+java -cp .;crawl.jar TestCrawl "http://e-mailid.blogspot.in"
+
+
+compile :
+======
+javac -classpath .;crawl.jar *.java
+
+document :
+=======
+javadoc -d doc -linksource com.recruiterbox
+
+Jar :
+===
+jar cvf crawl.jar com/recruiterbox/*.class
+
+
+
+
+
+
+
+
+
+
+
+
+
